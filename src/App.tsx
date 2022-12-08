@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom"
 import BarGraph from "./components/Graphics/BarGraph"
-import LineGraph from "./components/Graphics/LineGraph"
+import { LineGraph } from "./components/Graphics/LineGraph"
 import Home from "./pages/Home"
 
 function App() {
